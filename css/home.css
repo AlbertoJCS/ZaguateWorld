@@ -1,0 +1,186 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+}
+
+
+html { 
+  height: 100%;
+}
+
+* { 
+  padding: 0;
+  margin: 0;
+}
+/*article, aside,*/ 
+
+ figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body { 
+  font: normal .8em arial, sans-serif;
+  color: #555;
+  background: transparent url(../images/grass.png) repeat-x bottom;
+}
+
+#container { 
+  background: #C4E9E8 url(../images/back.png) repeat-x;
+}
+
+#main {
+  width: 920px;
+  max-width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  background-color: #ffff;
+  padding: 10px 18px 40px 18px;
+  position: relative; /* Asegúrate de tener una posición establecida */
+}
+
+
+#encabezado {
+    text-align: center;
+}
+
+#encabezado .img{
+  display: inline-block;
+}
+
+#navegacion {
+  background-color: #53c7fd;
+  height: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+#navegacion a {
+  font-size: 18pt;
+  margin-right: 30px;
+  font-family: "Yanone Kaffeesatz", Arial, sans-serif;
+  color: #ffff;
+  text-decoration: none;
+}
+
+#navegacion a:visited {
+  text-decoration: none;
+}
+
+#navegacion :hover {
+  color:  #E5017D;
+}
+
+#opciones {
+  display: none;
+  position: absolute;
+  top: 300px;
+  left: 370px;
+  background-color: #53c7fd;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  list-style: none;
+}
+
+#navegacion .adoptar:hover + #opciones {
+  display: block;
+}
+
+
+#opciones li {
+  margin-bottom: 10px;
+}
+
+#opciones li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+#contenedor-principal {
+  display: flex;
+}
+
+.secciones {
+  flex-grow: 1;
+  width: 30%;
+}
+
+.secciones #seccionUno{
+background-color: #d3f4f8 ;
+border: 1px solid #C9E5E9;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+.secciones #seccionDos{
+  background-color: #d3f4f8 ;
+  border: 1px solid #C9E5E9;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.secciones #seccionTres{
+  background-color: #d3f4f8 ;
+  border: 1px solid #C9E5E9;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.articuloPrincipal {
+  flex-grow: 1;
+  width: 70%;
+}
+
+.articuloPrincipal p {
+  width: 65%;
+  padding-bottom: 30px;
+}
+
+/*
+.articuloPrincipal img {
+  position:absolute;
+  left: 50%;
+  bottom: 30%;
+  border-radius: 1pt;
+  border: 1px ridge gray;
+}
+*/
+
+.articuloPrincipal img {
+  float: right;
+  margin-right: 35px;
+  border-radius: 1pt;
+  border: 1px ridge gray;
+  padding: 10px;
+}
+
+.articuloPrincipal h1 {
+  margin: 15px 0px 15px 0px;
+  color : #E5017D;
+ }
+
+
+
+ /*Footer*/
+
+ .piePagina {
+  background-color: #53c7fd;
+  height: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+ }
+
+
+
+
+
+
+
+
+
